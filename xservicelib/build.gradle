@@ -85,7 +85,7 @@ bintray {
 
         version {
             name = '1.1'//版本号
-            desc = 'A extent Button with more customized feature'//版本描述
+            desc = 'A extent Service with more customized feature'//版本描述
             released = new Date()
             vcsTag = 'v1.1'
             attributes = ['gradle-plugin': 'com.use.less:com.use.less.gradle:gradle-useless-plugin']
@@ -99,7 +99,7 @@ install {
             project {
                 packaging 'aar'
                 //项目描述
-                description 'A extent Button with more customized feature'
+                description 'A extent Service with more customized feature'
                 url siteUrl
                 // 填写开源协议
                 licenses {
