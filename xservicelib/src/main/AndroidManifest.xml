@@ -1,2 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.zhxh.xservicelib" />
+    package="com.zhxh.xservicelib" >
+
+    <application>
+        <service android:name=".GuardService" />
+        <service android:name=".JobAwakenService" />
+        <service android:name=".XService" />
+    </application>
+</manifest>
